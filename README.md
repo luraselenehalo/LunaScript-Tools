@@ -38,7 +38,7 @@ LunaScript-Tools/
 
 ## Demo Web tools
 
-(LunaScript Tools)[https://lunascript-tools.onrender.com/]
+LunaScript Tools - https://lunascript-tools.onrender.com/
 
 ## Getting Started
 
