@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hash Generator | LunaScript Tools</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script src="../assets/js/main.js" defer></script>
+    <script src="../assets/js/tools/hash-generator.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="../index.html">LunaScript <span>Tools</span></a>
+        <nav class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="password.html">Tools</a>
+          <a href="../open-source.html">Open Source</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>Hash Generator</h1>
+        <p>
+          Produce SHA-256 hashes in your browser. Ideal for quick integrity checks or
+          reference fingerprints.
+        </p>
+      </section>
+
+      <section class="tool-layout">
+        <div class="tool-panel">
+          <label for="hash-input">Text to hash</label>
+          <textarea id="hash-input" placeholder="Enter text to hash"></textarea>
+          <button class="button" id="hash-button">Generate SHA-256</button>
+          <button class="button secondary" id="hash-copy">Copy Hash</button>
+          <p class="status" id="hash-status"></p>
+        </div>
+
+        <div>
+          <h2 class="section-title">Hash Output</h2>
+          <div class="output-box" id="hash-output">Awaiting input.</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="../index.html">Home</a>
+          <a href="../open-source.html">Open Source</a>
+        </div>
+        <p>SHA-256 computed locally. <span data-year></span></p>
+      </div>
+    </footer>
+  </body>
+</html>

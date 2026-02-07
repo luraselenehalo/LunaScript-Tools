@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UUID Generator | LunaScript Tools</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script src="../assets/js/main.js" defer></script>
+    <script src="../assets/js/tools/uuid-generator.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="../index.html">LunaScript <span>Tools</span></a>
+        <nav class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="password.html">Tools</a>
+          <a href="../open-source.html">Open Source</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>UUID Generator</h1>
+        <p>
+          Generate RFC 4122 compliant UUIDs for testing, tracking, and system design.
+        </p>
+      </section>
+
+      <section class="tool-layout">
+        <div class="tool-panel">
+          <button class="button" id="uuid-generate">Generate UUID</button>
+          <button class="button secondary" id="uuid-copy">Copy UUID</button>
+          <p class="status" id="uuid-status"></p>
+        </div>
+
+        <div>
+          <h2 class="section-title">UUID Output</h2>
+          <div class="output-box" id="uuid-output">Ready to generate.</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="../index.html">Home</a>
+          <a href="../open-source.html">Open Source</a>
+        </div>
+        <p>UUIDs generated in-browser. <span data-year></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
