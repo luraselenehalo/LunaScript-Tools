@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON Formatter | LunaScript Tools</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script src="../assets/js/main.js" defer></script>
+    <script src="../assets/js/tools/json-formatter.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="../index.html">LunaScript <span>Tools</span></a>
+        <nav class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="password.html">Tools</a>
+          <a href="../open-source.html">Open Source</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>JSON Formatter</h1>
+        <p>
+          Format and validate JSON with clean indentation, making payloads easier to read
+          and debug.
+        </p>
+      </section>
+
+      <section class="tool-layout">
+        <div class="tool-panel">
+          <label for="json-input">Raw JSON</label>
+          <textarea id="json-input" placeholder='{"message": "Hello"}'></textarea>
+          <button class="button" id="json-format">Format JSON</button>
+          <button class="button secondary" id="json-copy">Copy Output</button>
+          <p class="status" id="json-status"></p>
+        </div>
+
+        <div>
+          <h2 class="section-title">Formatted Output</h2>
+          <div class="output-box" id="json-output">Awaiting JSON input.</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="../index.html">Home</a>
+          <a href="../open-source.html">Open Source</a>
+        </div>
+        <p>Formatted locally with zero tracking. <span data-year></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
